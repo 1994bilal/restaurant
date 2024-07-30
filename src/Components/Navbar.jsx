@@ -2,7 +2,7 @@ import logo  from "../../src/assets/logo.png";
 
 const Navbar = () => {
   return (
-    <div className='top-1 z-50 flex w-full flex-col items-center justify-center'>
+    <div className=' fixed top-1 z-50 flex w-full flex-col items-center justify-center'>
         <header className="mt-4 text-gray-600 body-font">
   <div className="container mx-auto flex flex-wrap p-5 flex-col md:flex-row items-center">
     <a className="flex title-font font-medium items-center text-white mb-4 md:mb-0">
