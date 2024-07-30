@@ -112,7 +112,7 @@ export const CUSINES = [
 ];
 
 export const REVIEW = {
-  name: "Bilal Fiaz",
+  name: "Bilal Fayyaz",
   profession: "CEO",
   content:
     "“As a seasoned food critic, my expectations are always high when stepping into a new dining establishment. Restaura, with its unassuming exterior and elegantly designed interior, promised aunique culinary experience from the moment I walked in. And I must say, it delivered beyond my expectations.”",
