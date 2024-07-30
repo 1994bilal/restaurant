@@ -12,22 +12,22 @@ const Navbar = () => {
       </span>
     </a>
     <nav className="md:mr-auto md:ml-4 md:py-1 md:pl-4 md:border-l md:border-gray-400	flex flex-wrap items-center text-yellow-300 justify-center">
-      <a className="mr-5 hover:text-white">
+      <a href={"#dishes"} className="mr-5 hover:text-white">
         Dishes
       </a>
-      <a className="mr-5 hover:text-white">
+      <a href={"#about"} className="mr-5 hover:text-white">
         About
       </a>
-      <a className="mr-5 hover:text-white">
+      <a href={"#mission"} className="mr-5 hover:text-white">
         Mission
       </a>
-      <a className="mr-5 hover:text-white">
+      <a href={"#expertise"} className="mr-5 hover:text-white">
        Expertise
       </a>
-      <a className="mr-5 hover:text-white">
+      <a href={"#review"} className="mr-5 hover:text-white">
        Review
       </a>
-      <a className="mr-5 hover:text-white">
+      <a href={"#contact"} className="mr-5 hover:text-white">
        Contact
       </a>
     </nav>
