@@ -2,7 +2,7 @@ import logo  from "../../src/assets/logo.png";
 
 const Navbar = () => {
   return (
-    <div className=' fixed top-1 z-50 flex w-full flex-col items-center justify-center'>
+    <div className=' fixed top-1 z-50 flex w-full flex-col items-start justify-start'>
         <header className="mt-4 text-gray-600 body-font">
   <div className="container mx-auto flex flex-wrap p-5 flex-col md:flex-row items-center">
     <a className="flex title-font font-medium items-center text-white mb-4 md:mb-0">
@@ -11,7 +11,7 @@ const Navbar = () => {
          
       </span>
     </a>
-    <nav className="md:mr-auto md:ml-4 md:py-1 md:pl-4 md:border-l md:border-gray-400	flex flex-wrap items-center text-yellow-300 justify-center">
+    <nav className="md:mr-auto md:ml-4 md:py-1 md:pl-4 md:border-l md:border-gray-400	flex flex-wrap items-center text-grey-100 justify-center">
       <a href={"#dishes"} className="mr-5 hover:text-white">
         Dishes
       </a>
