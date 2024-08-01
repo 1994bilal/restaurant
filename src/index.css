@@ -9,3 +9,106 @@
   font-family: "Inter",sans-serif;
   background-color: #000000;
 }
+
+body,html{
+  width: 100%;
+  height: 100%;
+}
+
+nav{
+  width: 100%;
+  height: 80px;
+  background-color: #000000;
+  position: fixed ;
+  cursor:pointer;
+
+}
+
+nav ul li a.active,a:hover{
+  background-color: #de3747;
+}
+
+
+label.logo{
+  color: white;
+  font-size: 50px;
+  padding: 0px 30px;
+  line-height: 80px;
+}
+
+nav ul{
+  list-style-type: none;
+  float: top;
+}
+
+nav ul li{
+  display:inline-block;
+  line-height: 80px;
+}
+
+nav ul li a{
+  text-decoration: none;
+  color: white;
+  font-size: 20px;
+  text-transform: capitalize;
+  padding: 8px 20px;
+}
+
+
+#checkbtn{
+  float: right;
+  line-height: 80px;
+  margin-right:10px;
+  font-size: 30px;
+  color: white;
+  display: block;
+}
+
+#check{
+  display: none;
+}
+
+#check:checked ~ ul{
+  left: 0;
+}
+
+.fonts{
+  display: none;
+}
+
+.fonts2{
+  display: none;
+}
+@media(max-width:895px){
+  #checkbtn{
+      display: block;
+  }
+
+  
+
+nav ul{
+      width: 100%;
+      height: 50vh;
+      background-color: #000000;
+      position: fixed;
+      top: 80px;
+      left: -100%;
+      transition: 1s;
+  }
+
+nav ul li{
+  display: block;
+  text-align:center;
+  line-height: 40px;
+}  
+
+.fonts{
+  margin-top: 20px;
+  display: block;
+}
+
+.fonts2{
+  margin-top: -30px;
+  display: block;
+}
+}
