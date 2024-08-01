@@ -1,6 +1,6 @@
 import logo  from "../../src/assets/logo.png";
 import { FaBars } from "react-icons/fa6";
-import { GiTireIronCross } from "react-icons/gi";
+
 
 const Navbar = () => {
 
@@ -60,7 +60,7 @@ const Navbar = () => {
         htmlFor="check"
         id="checkbtn"
       >
-        <GiTireIronCross className="fonts2"/>
+        
       </label>
       </ul>
     </nav>

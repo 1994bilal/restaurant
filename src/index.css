@@ -76,9 +76,7 @@ nav ul li a{
   display: none;
 }
 
-.fonts2{
-  display: none;
-}
+
 @media(max-width:895px){
   #checkbtn{
       display: block;
@@ -107,8 +105,5 @@ nav ul li{
   display: block;
 }
 
-.fonts2{
-  margin-top: -30px;
-  display: block;
-}
+
 }
